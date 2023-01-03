@@ -4,7 +4,8 @@
     box-sizing: border-box;
 }
 body {
-    background-color: #f0eaea;
+    background-color: #F7F7F7;
+    font-family: brandongrotesque;
 }
 header {
     width: 100%; 
@@ -18,7 +19,7 @@ nav {
     width: 100%;
     position: fixed;
     z-index: 1;
-    background-color: #f0eaea;
+    background-color: #F7F7F7;
 }
 .logo {
     display: inline-block;
@@ -27,25 +28,32 @@ nav {
     background-color: white;
     border-radius: 50%;
     border: 8px solid #000000;
-    margin-top: 5px;
+    margin: 10px 0;
 }
 ul {
     display: flex;
 }
-li {
+ul li {
     display: inline-block;
     padding: 15px;
     color: #000000;
     font-size: 12px;
     text-align: center;
-    font-weight: bold;
     letter-spacing: 1.5px;
     line-height: 18px;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+nav a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000000;
+}
+nav a:hover {
+    color: #837e7e;
+    border-bottom: 2px solid #3b3939;
 }
 .main-photo {
     width: 100%;
-    height: 90vh;
+    height: 700px;
 }
 li:first-child:after {
     content: "";
@@ -70,4 +78,113 @@ li:nth-child(3):after {
     height: 10px;
     background-color: #000000;
     margin-left: 15px;
+}
+
+.first-paragraph-section {
+    width: 700px;
+    height: 210px;
+    margin: 80px 50px 150px 150px;
+}
+h1 {
+   color: #262626; 
+   font-size: 30px;
+   font-weight: bold;
+   letter-spacing: 7px;
+   line-height: 43px;
+}
+.thematique-gros {
+    width: 250px;
+    height: 35px;
+    margin-top: 80px;
+}
+.thematique {
+    display: inline-block;
+    font-size: 11px;
+    padding: 15px 15px 15px 0;
+    color: #262626;
+    letter-spacing: 0.88px;
+    font-family: brandonlight;
+    font-weight: bold;
+}
+.gros {
+    display: inline-block;
+    background-color: #0865DE;
+    color: #ffffff;
+    padding: 8px 15px;
+    font-size: 13px;
+    letter-spacing: 1.5px;
+    font-family: brandonlight;
+    font-weight: 100;
+    opacity: 1;
+}
+
+.outils-app {
+    width: 250px;
+    height: 35px;
+    margin-top: 40px;
+}
+.outils {
+    display: inline-block;
+    font-size: 11px;
+    padding: 15px 15px 15px 0;
+    color: #262626;
+    letter-spacing: 0.88px;
+    font-family: brandonlight;
+    font-weight: bold;
+}
+.app {
+    display: inline-block;
+    background-color: #FFFFFF;
+    color: #000000;
+    padding: 8px 15px;
+    font-size: 13px;
+    letter-spacing: 1.7px;
+    font-family: brandongrotesque;
+    font-weight: lighter;
+    opacity: 1;
+    box-shadow: 0px 2px 4px #00000021 ;
+}
+.desliens {
+    width: 600px;
+    height: 100px;
+    font-size: 33px;
+    font-family: tisa;
+    color: #262626;
+    margin-top: 60px;
+}
+.initie {
+    width: 700px;
+    height: 200px;
+    font-size: 25px;
+    font-family: tisa;
+    color: #434343;
+    margin-top: 60px;
+}
+.terre {
+    width: 562px;
+    color: #959595;
+    font-size: 14px;
+    letter-spacing: 1.5px;
+    margin-top: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.terre span {
+    margin: 0 50px;
+}
+.terre a {
+    text-decoration: underline;
+    color: inherit;
+}
+
+
+.lequipe {
+    display: inline-block;
+    width: 303px;
+    height: 100px;
+}
+.teammates img {
+    display: inline-block;
+    width: 33px;
+    height: 33px;
+    border-radius: 50%;
 }
