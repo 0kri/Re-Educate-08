@@ -81,7 +81,7 @@ li:nth-child(3):after {
 }
 
 .first-paragraph-section {
-    width: 700px;
+    /* width: 700px; */
     margin: 80px 50px 150px 150px;
 }
 h1 {
@@ -177,15 +177,63 @@ h1 {
 
 
 .lequipe {
-    width: 303px;
-    height: 100px;
+    margin-left: 350px;
+    margin-top: 60px;
+    width: 393px;
+    height: 288px;
     background-color: #FFFFFF;
 }
 .teammates img {
+    margin-right: 22px;
     width: 33px;
     height: 33px;
     border-radius: 50%;
 }
 .main-text-lequipe {
     display: flex;
+}
+
+.lequipe h2 {
+    display: inline-block;
+    margin: 90px 120px 0px 90px;
+    font-size: 25px;
+    letter-spacing: 5px;
+} 
+.teammates {
+    display: inline-block;
+    margin:  30px 0px 90px 90px;
+}
+.hidden-container {
+    background-color: #ffffff;
+    width: 180px;
+    height: 160px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.hidden-triangle {
+    width: 0;
+    height: 0;
+    background-color: #FFFFFF;
+    margin-left: 75px;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+      
+    border-bottom: 13px solid #0865DE;
+}
+.hidden-text {
+    background-color: #0865DE;
+    border-radius: 7px;
+}
+.hidden-text h3 {
+    font-size: 14px;
+    letter-spacing: 1.4px;
+    padding-top: 35px;
+}
+.conseiller {
+    font-size: 10px;
+    letter-spacing: 0.3px;
+}
+.bill {
+    font-size: 12px;
+    letter-spacing: 0.24px;  
 }
