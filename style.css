@@ -216,7 +216,7 @@ h1 {
     width: 0;
     height: 0;
     background-color: #FFFFFF;
-    margin-left: 75px;
+    margin-left: 72px;
     border-left: 10px solid transparent;
     border-right: 10px solid transparent;
     border-bottom: 13px solid #0865DE;
@@ -243,7 +243,54 @@ h1 {
     letter-spacing: 0.24px;  
     padding: 10px 35px 15px 35px;
 }
-
 .lequipe:hover .hidden-container {
     opacity: 1;
+}
+
+.second-main-image {
+    width: 65%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+.three-projets {
+    display: flex;
+    position: relative;
+    width: 50%;
+    margin-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-around;
+}
+.projets-recents {
+    display: flex;
+    width: 50%;
+    letter-spacing: 1.4px;
+    font-size: 14px;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    top: -65px;
+    left: 35px;
+    justify-content: start;
+}   
+.building {
+    width: 270px;
+    height: 250px;
+    padding: 15px ;
+}
+.btn-logo {
+    width: 25px;
+    height: 25px;
+}
+.first-projet-text {
+    padding: 15px;
+}
+.first-projet-button-with-text {
+    display: flex;
+    padding: 15px;
+}
+.txt-for-button {
+    /* margin-left: 5px; */
 }
