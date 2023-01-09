@@ -291,6 +291,6 @@ h1 {
     display: flex;
     padding: 15px;
 }
-.txt-for-button {
-    /* margin-left: 5px; */
+.first-projet, .second-projet, .third-projet {
+    background-color: #FFFFFF;
 }
